@@ -8,7 +8,7 @@ const DAILY_RATE = 500;
 const MONTHLY_SALARY = 15000;
 const STORAGE_KEY = "cafe_attendance_all_v1";
 const PIN_KEY = "cafe_attendance_pin";
-const CORRECT_PIN = "1234"; // ← Change this to your preferred PIN
+const CORRECT_PIN = "2846"; // ← Change this to your preferred PIN
 
 function getDaysInMonth(year, month) {
   return new Date(year, month + 1, 0).getDate();
